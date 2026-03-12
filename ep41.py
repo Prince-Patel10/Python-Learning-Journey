@@ -8,5 +8,5 @@ def funargs(string ,*argsharry,**kwargs):
       print(f"{key} 's role is {value}")
 har = ["Messi","Ronaldo","Neymar","Lewandoski","Suarez"]
 normal = "This are players"
-kw = {"Messi":"GOAT","Ronaldo":"Goalscorer","Neymar":"Playmaker","Suarez":"All in one"}
+kw = {"Messi ":"GOAT","Ronaldo":"Goalscorer","Neymar":"Playmaker","Suarez":"All in one"}
 funargs(normal,*har,**kw)

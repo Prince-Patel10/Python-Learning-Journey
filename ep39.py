@@ -10,5 +10,5 @@ b1 = "Singh"
 # c= d.format(b , b1)
 # print(c)
 
-e = f"This is {b} {b1} {4*3} {math.cos(0)}"
+e = f"This is  {b} {b1} {4*3} {math.cos(0)}"
 print(e)

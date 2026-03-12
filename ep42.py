@@ -18,5 +18,5 @@ import time
 
 local_time = time.asctime(time.localtime(time.time()))
 local_time2 = time.ctime(time.time())
-print(local_time)
+print("h",local_time)
 print(local_time2)
