@@ -3,10 +3,13 @@
 # c = sum((a,b))
 # print(c)
 
+from multiprocessing.spawn import _main
+
+
 def function1(a,b):
     print("Hello you are a function",a+b)
 
-function1(5,7)
+#function1(5,7)
 
 def function2(a,b):
     """
@@ -18,7 +21,7 @@ def function2(a,b):
     average = (a+b)/2
     # print(average)
     return average
-
-v=function2(6,12)
-print(v)
-print(function2.__doc__)
+if __name__=='_main_':
+    v=function2(6,12)
+    print(v)
+    print(function2.__doc__)
